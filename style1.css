@@ -1,0 +1,201 @@
+/* Meu perfil web*/
+/* Tags*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	padding: 10px;
+}
+header{
+	background-color: #ff6666;
+	height: 20px;
+	padding: 20px;
+}
+
+body{
+	text-align: center;
+	background-image: url(moon.jpg);*/
+	height: auto;
+}
+
+footer{
+	clear: both;
+	background-color: #ff6666;
+	height: 30px;
+	padding: 10px;
+	font-family: arial;
+	text-align: center;
+}
+/* IDs*/
+#menu{
+	float: left;
+}
+
+#menu a{
+	text-decoration:none;
+	font-family: arial;
+	padding: 20px;
+	color: white;
+}
+#menu a:hover{
+	background-color: white;	
+	border-radius: 20px;
+	color: #ff6666;
+	font-family: arial;
+}
+#contato{
+	float: right;
+}
+#contato img{
+	height: 30px;
+	padding: 5px;
+}
+#div_central{
+	min-height: auto;
+	color: white;
+	text-align: center;
+	clear: both;
+	/*background-color: rgba(255, 230, 230, 0.5);*/
+}
+#div_um{
+	background-image: url(moon.jpg);
+	text-align: center;
+}
+#perfil img{
+	
+	border: 10px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#sobre_e{
+	clear: both;
+	background-color: rgba(255, 77, 77, 0.8);	
+	border-radius: 20px;
+	width: 50%;
+	float: left;
+}
+#sobre_d{
+	width: 50%;
+	float: right;
+}
+#sobre_d img{
+	border-radius: 10px;
+	border-color: white;
+	padding: 5px;
+	height: 150px;
+}
+
+#div_dois{
+	clear: both;
+	margin: 0 100px 20px 100px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 20px;
+	height: 760px;
+
+}
+
+#formacao_right{
+	clear: both;
+	background-color: rgba(255, 77, 77, 0.8);	
+	border-radius: 20px;
+	width: 50%;
+	float: right;
+}
+#formacao_left{
+	width: 50%;
+	float: left;
+}
+
+
+#interesse{
+	clear: both;
+}
+#interesse_left{
+	clear: both;
+	background-color: rgba(255, 77, 77, 0.8);	
+	border-radius: 20px;
+	width: 50%;
+	float: left;
+
+}
+#interesse_right{
+	width: 50%;
+	float: right;
+}
+
+#interesse_right img{
+	border-radius: 10px;
+	border-color: white;
+	border: 10px;
+	height: 60px;
+	padding: 5px;
+}
+
+#hobbies_right{
+	clear: both;
+	background-color: rgba(255, 77, 77, 0.8);	
+	border-radius: 20px;
+	width: 50%;
+	float: right;
+
+}
+#hobbies_right ul{
+	list-style-type: none;
+	padding: 10px;
+}
+#hobbies_left{
+	width: 50%;
+	float: left;
+	
+
+}
+#hobbies_left img{
+	border-radius: 10px;
+	border-color: white;
+	border: 10px;
+	height: 60px;
+	padding: 5px;
+
+}
+
+#curiosidades_right{
+	clear: both;
+	background-color: rgba(255, 77, 77, 0.8);	
+	border-radius: 20px;
+	width: 50%;
+	float: left;
+}
+#curiosidades_left{
+	width: 50%;
+	float: right;
+}
+#curiosidades_left img{
+	border-radius: 10px;
+	border-color: white;
+	border: 10px;
+	height: 80px;
+	margin: 10px;
+
+}
+
+/* class*/
+.container{
+	margin: auto;
+}
+.textos{
+	font-family: arial;
+	border-radius: 10px;
+}
+.textos h1{
+	background-color: white;	
+	border-radius: 20px;
+	color: #ff6666;
+	font-family: arial;
+
+}
