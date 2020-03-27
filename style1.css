@@ -57,7 +57,6 @@ footer{
 	color: white;
 	text-align: center;
 	clear: both;
-	/*background-color: rgba(255, 230, 230, 0.5);*/
 }
 #div_um{
 	background-image: url(moon.jpg);
@@ -96,8 +95,11 @@ footer{
 	padding: 20px;
 	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 20px;
-	height: 760px;
-
+}
+#div_dois::after{
+	content: "";
+  	display: block; 
+	clear: both;
 }
 
 #formacao_right{
@@ -113,9 +115,6 @@ footer{
 }
 
 
-#interesse{
-	clear: both;
-}
 #interesse_left{
 	clear: both;
 	background-color: rgba(255, 77, 77, 0.8);	
@@ -163,7 +162,9 @@ footer{
 	padding: 5px;
 
 }
-
+#curiosidades{
+	clear: both;
+}
 #curiosidades_right{
 	clear: both;
 	background-color: rgba(255, 77, 77, 0.8);	
